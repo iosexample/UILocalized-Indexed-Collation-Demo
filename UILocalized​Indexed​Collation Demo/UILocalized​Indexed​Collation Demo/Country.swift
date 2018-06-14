@@ -19,7 +19,6 @@ class Country:NSObject {
   
     init(dictionary: JSON) {
         self.countryName   = dictionary["countryName"] as! String
-        self.countryPinyin = dictionary["countryPinyin"] as! String
         self.phoneCode     = dictionary["phoneCode"] as! String
         self.countryCode   = dictionary["countryCode"] as! String
     }
